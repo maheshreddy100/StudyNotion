@@ -75,7 +75,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                             onChange={changeHandler}
                             placeholder="Enter First Name"
                             value={formData.firstName}
-                            className='w-full text-white rounded-md py-2 px-2 bg-richblack-700 mt-1'
+                            className='w-full text-richblack-5 rounded-md py-2 px-2 bg-richblack-700 mt-1'
                         />
                     </label>
 
@@ -88,7 +88,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                             onChange={changeHandler}
                             placeholder="Enter Last Name"
                             value={formData.lastName}
-                            className='w-full text-white rounded-md py-2 px-2 bg-richblack-700 mt-1'
+                            className='w-full text-richblack-5 rounded-md py-2 px-2 bg-richblack-700 mt-1'
                         />
                     </label>
     </div>
@@ -103,7 +103,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                 onChange={changeHandler}
                 placeholder="Enter email address"
                 value={formData.email}
-                className='w-full rounded-md py-2 px-2 bg-richblack-700 mt-1'
+                className='w-full text-richblack-5 rounded-md py-2 px-2 bg-richblack-700 mt-1'
             />
     </label>
         {/* CreatePassword & confirmPassword */}
@@ -118,7 +118,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                 onChange={changeHandler}
                 placeholder="Enter password"
                 value={formData.password}
-                className='w-full rounded-md py-2 px-2 bg-richblack-700 mt-1'
+                className='w-full  text-richblack-5 rounded-md py-2 px-2 bg-richblack-700 mt-1'
             />
 
             <span  className=' absolute right-3 top-[40px]'
@@ -138,7 +138,7 @@ const SignupForm = ({setIsLoggedIn}) => {
             placeholder="Confirm Password"
             onChange={changeHandler}
             type={showConfirmPassword ? ("text") : ("password")}
-            className='w-full rounded-md py-2 px-2 bg-richblack-700 mt-1'
+            className='w-full text-richblack-5 rounded-md py-2 px-2 bg-richblack-700 mt-1'
         />
         <span className=' absolute right-3 top-[40px]'
         onClick={() => setShowConfirmPassword((prev) => ! prev)}>
