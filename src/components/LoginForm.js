@@ -44,7 +44,7 @@ const LoginForm = ({setIsLoggedIn}) => {
          onChange={changeHandler}
          value={formData.email}
          name="email"
-         className='w-full rounded-md py-2 px-2 bg-richblack-700 mt-1'
+         className='w-full text-richblack-5 rounded-md py-2 px-2 bg-richblack-700 mt-1'
         />
         </label>
 
@@ -59,7 +59,7 @@ const LoginForm = ({setIsLoggedIn}) => {
          onChange={changeHandler}
          value={formData.password}
          name="password"
-         className='w-full rounded-md py-2 px-2 bg-richblack-700 mt-1'
+         className='w-full text-richblack-5 rounded-md py-2 px-2 bg-richblack-700 mt-1'
         />
         <span className=' absolute right-3 top-[38px] cursor-pointer'
         onClick={() => setShowPassword((prev) => !prev)}>
