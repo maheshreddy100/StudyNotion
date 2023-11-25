@@ -75,7 +75,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                             onChange={changeHandler}
                             placeholder="Enter First Name"
                             value={formData.firstName}
-                            className='w-full rounded-md py-2 px-2 bg-richblack-700 mt-1'
+                            className='w-full text-white rounded-md py-2 px-2 bg-richblack-700 mt-1'
                         />
                     </label>
 
@@ -88,7 +88,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                             onChange={changeHandler}
                             placeholder="Enter Last Name"
                             value={formData.lastName}
-                            className='w-full rounded-md py-2 px-2 bg-richblack-700 mt-1'
+                            className='w-full text-white rounded-md py-2 px-2 bg-richblack-700 mt-1'
                         />
                     </label>
     </div>
